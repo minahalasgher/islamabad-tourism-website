@@ -1,0 +1,61 @@
+.hero {
+  /* padding: 30px; */
+  /* background: #f5f7fa;p */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  gap: 50px;
+  
+ 
+}
+.hero-text{
+  flex: 1;
+  width: 45%;
+}
+
+.hero-text h1 {
+  font-size: 55px;
+  color: black;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.hero-text span{
+  display: block;
+  color: green;
+}
+
+.hero-text p {
+  color: gray;
+  margin: 10px 0;
+}
+
+.hero-text button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+  .hero-img{
+flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  
+}
+ .hero-img img{
+  width: 450px;
+}  
+.client{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-decoration: bold;
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+}
