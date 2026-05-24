@@ -33,7 +33,7 @@ import TravelBlogs from "./components/TravelBlogs";
 import ContributorsSection from "./components/ContributorsSection";
 import FooterSection from "./components/FooterSection";
 import Navbar from "./components/Navbar";
-
+import TravelTips from "./components/TravelTips";
 import Booking from "./pages/Booking";
 
 function Home() {
@@ -72,6 +72,7 @@ function Home() {
       <TrendingTour />
       <CarSection />
       <TravelBlogs />
+      <TravelTips />
       <ContributorsSection />
       <FooterSection />
     </>
