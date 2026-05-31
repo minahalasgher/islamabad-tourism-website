@@ -1,22 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Header from "./components/header/Header";
+import { supabase } from "./supabaseClient";
 import "./App.css";
-import Hero from "./components/hero/Hero";
-import Community from "./components/our community/Community";
-import Demo from "./components/our demo/Demo";
-import Counter from "./components/counter/Counter";
-import Path from "./components/path-to-success/Path";
-import Explore from "./components/catagory/Explore";
-import National from "./components/our national/National";
-import Impact from "./components/impact/Impact";
-import Islamabad from "./components/Islamabad/Islamabad";
+
 import Hero1 from "./components/hero1/Hero1";
-import Swezierland from "./components/swezierland/swezierland";
 import StudentData from "./components/StudentData";
-import Supabase from "./components/supabase/Supabase";
-import Portfolio from "./components/portfolio/Portfolio";
 import Japan from "./components/japan/Japan";
 import TourismSection from "./components/TourismSection";
 import TourismCards from "./components/TourismCards";
